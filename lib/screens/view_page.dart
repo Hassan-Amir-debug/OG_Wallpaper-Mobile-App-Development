@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class ViewPage extends StatefulWidget {
   final String id;
   final List<String> favorites;
@@ -27,7 +26,7 @@ class _ViewPageState extends State<ViewPage> {
         children: [
           Expanded(
             child: Center(
-              child: Image.asset(
+              child: Image.network(
                 widget.id,
                 fit: BoxFit.contain,
               ),

@@ -44,7 +44,7 @@ class _FavPageState extends State<FavPage> {
             },
             child: ClipRRect(
               borderRadius: BorderRadius.circular(12),
-              child: Image.asset(
+              child: Image.network(
                 id,
                 fit: BoxFit.cover,
               ),
